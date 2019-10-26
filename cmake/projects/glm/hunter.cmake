@@ -61,6 +61,17 @@ hunter_add_version(
     SHA1
     e25b219ead246b255b369e35c37c2e31430021f2
 )
+
+hunter_add_version(
+    PACKAGE_NAME
+    glm
+    VERSION
+    "0.9.9.6"
+    URL
+    "https://github.com/g-truc/glm/releases/download/0.9.9.6/glm-0.9.9.6.7z"
+    SHA1
+    029ed75150335ce4fa75384f1c65cab07acca5c3
+)
 include(GNUInstallDirs)
 
 # glm use custom bundled GNUInstallDirs module so we have to
