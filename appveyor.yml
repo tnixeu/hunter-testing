@@ -20,6 +20,10 @@ environment:
       PROJECT_DIR: examples\glbinding
       APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2017
 
+    - TOOLCHAIN: "vs-16-2019-win64-cxx17"
+      PROJECT_DIR: examples\glbinding
+      APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2019
+
     - TOOLCHAIN: "vs-14-2015-sdk-8-1"
       PROJECT_DIR: examples\glbinding
       APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2015
